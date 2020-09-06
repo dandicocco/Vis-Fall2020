@@ -42,7 +42,7 @@ document.querySelector("#generate").onclick = function(){
 
 	// ADD PARAGRAPH TO DIV-CONTAINER WITH ID "content"
 	let element = document.querySelector("#content");
-	element.appendChild(paragraph);
-
+    element.appendChild(paragraph);
+    
 	this.blur(); // lose focus
 }
