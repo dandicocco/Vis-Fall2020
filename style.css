@@ -6,10 +6,13 @@ h1{
     margin-top: 30px;
 }
 
+#generate {
+    margin-bottom: 30px;
+}
+
 .button {
     background-color: #8a100b;
     transition-duration: .2s;
-    margin-bottom: 30px;
 }
 .button:hover {
     background-color: #b29d6c;
