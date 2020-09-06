@@ -1,3 +1,6 @@
+h1{
+    color: #626262;
+}
 
 .row {
     margin-top: 30px;
@@ -6,7 +9,7 @@
 .button {
     background-color: #8a100b;
     transition-duration: .2s;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .button:hover {
     background-color: #b29d6c;
@@ -28,12 +31,15 @@ div p {
     border-width: 1px;
     border-radius: 5px;
     border-color: #e4e4e4;
+    animation: fadeIn;
+    animation-duration: .2s;
 }
 
-#rightCol p {    /* to get rid of bg/border on p in right column caused by above descedant selector */
+#rightCol p {    /* to get rid of properties on p in right column caused by above descedant selector */
     padding: 0px;
     background-color: #ffffff;
     border-style: none;
+    animation-duration: 0s;
 }
 
 img {
