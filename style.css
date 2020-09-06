@@ -1,0 +1,12 @@
+
+h1 {
+    font-family: 'Helvetica Neue';
+}
+
+img {
+    float: right; 
+    margin: 15px;
+    max-width: 50%;
+    border-radius: 5px;
+}
+
